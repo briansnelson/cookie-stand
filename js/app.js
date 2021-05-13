@@ -112,15 +112,4 @@ let lima = {
     return Math.floor(Math.random() * (this.max - this.min +1) + this.min);
   }
 }
-calcCookiesPerHour: function(){
-  // calc cookies for all 14 hours
-  // write a for loop that uses the length of the hours arary
-  //  in that loop
-  let custThisHour = this.getCustomersPerHour();
-  let cookiesSoldThisHour = Math.ceil(custThisHour * this.avg);
-  this.cookiesPerHourArray.push(cookiesSoldThisHour);
-  console.log('I am in the calcCookiesPerHour method', 'custThisHour: ', custThisHour, 'cookiesSoldThisHour: ', cookiesSoldThisHour);
-},
-render: function(){
-  this.calcCookiesPerHour();
-  console.log('this is the render method');
+
