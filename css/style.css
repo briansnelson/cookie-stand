@@ -1,0 +1,37 @@
+h1{
+  font-size: 4em;
+  font-family: 'Alegreya SC', serif;
+
+  color: black
+}
+
+h2{
+  font-size: 1.5em;
+  font-family:'Alegreya SC', serif;
+  margin-bottom: 5%;
+  color: salmon
+}
+
+h3{
+  font-size: 1.5em;
+  font-family:'Alegreya SC', serif;
+  margin-bottom: 5%;
+  color: salmon
+}
+
+h4{
+  font-size: 1.5em;
+  font-family:'Alegreya SC', serif;
+  margin-bottom: 5%;
+  color: salmon
+}
+
+h5{
+  font-size: 1.5em;
+  font-family:'Alegreya SC', serif;
+  margin-bottom: 5%;
+}
+
+.div1 { 
+  grid-area: 1 / 1 / 2 / 4; 
+}
