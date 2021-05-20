@@ -5,7 +5,7 @@ body {
 /* header styling */
 header {
   background-color: #444;
-  height 100px;
+  height: 127px;
 }
 
 nav, main {
@@ -44,6 +44,8 @@ nav a {
 
 main img {
   margin-top: 30px;
+  width: 400px;
+  margin-left: 100px;
 }
 main li {
   margin-left: 30px;
@@ -88,9 +90,8 @@ article div {
 
 article div:hover {
   background-color: red;
-  color: #eee
+  color: #eee;
   transition: 350ms;
-
 }
 /* footer */
 
